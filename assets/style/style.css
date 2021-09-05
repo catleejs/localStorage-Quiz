@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  header h4 {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: lighter;
+  }
+  
+  #hscore {
+    color: #b54be5;
+  }
+  
+  #hscore:hover {
+    color: #351c75;
+  }
+  
+  #mainsection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #quizblock {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  #quizblock h2 { /* affects the question itself */
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #starttext {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .finalscore {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .nbutton {
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    background-color:#351c75;
+    border-radius: 10px;
+    color: white;
+    border:none;
+    text-align: left;
+  }
+  
+  .nbutton:hover {
+    background-color:#bd60e7;
+  }
+  
+  .nbuttonsmall {
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    background-color:#351c75;
+    border-radius: 7px;
+    color: white;
+    border:none;
+    text-align: left;
+  }
+  
+  .nbuttonsmall:hover {
+    background-color:#bd60e7;
+  }
+  
+  .holderanswered {
+    border-bottom: 0px;
+    border-top: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: grey;
+    border-style: solid;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .textanswered {
+    color: grey;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #buttonholder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  #buttonholder .answerbutton {
+    min-width: 40%;
+    margin-right: 100px;
+    margin-top: 10px;
+  }
+  
+  
+  #initialstext {
+    font-size: 30px;
+    text-align: left;
+    display:inline-block;
+  }
+  
+  #initialsbox {
+    display: none;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    height: 80px;
+  }
+  
+  #initialsinput {
+    width: 50%;
+    height: 35px;
+    flex-grow: 100%;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  
+  #initialsbutton {
+    margin-left: 10px;
+  }
+  
+  #hsbox {
+    display: none;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #hsback {
+    margin-right: 20px;
+  }
+  
+  #hslist {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: left;
+  }
