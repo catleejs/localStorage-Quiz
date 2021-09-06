@@ -14,28 +14,28 @@ body {
     font-weight: lighter;
   }
   
-  #hscore {
+  #highscore {
     color: #b54be5;
   }
   
-  #hscore:hover {
+  #highscore:hover {
     color: #351c75;
   }
   
-  #mainsection {
+  #main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
   
-  #quizblock {
+  #quiz {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
   }
   
-  #quizblock h2 { /* affects the question itself */
+  #quiz h2 { 
     font-size: 45px;
     margin-top: 60px;
     margin-bottom: 10px;
@@ -43,16 +43,13 @@ body {
     text-align: center;
   }
   
-  #starttext {
+  #starttxt {
     font-size: 30px;
     text-align: center;
     width: 100%;
   }
   
-  .finalscore {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+
   
   .nbutton {
     padding: 15px 25px 15px 25px;
@@ -110,20 +107,13 @@ body {
     justify-content: flex-start;
   }
   
-  #buttonholder .answerbutton {
-    min-width: 40%;
-    margin-right: 100px;
-    margin-top: 10px;
-  }
-  
-  
   #initialstext {
     font-size: 30px;
     text-align: left;
     display:inline-block;
   }
   
-  #initialsbox {
+  #initials {
     display: none;
     align-items: center;
     width: 100%;
@@ -139,22 +129,19 @@ body {
     margin-left: 15px;
   }
   
-  #initialsbutton {
+  #initialssubmit {
     margin-left: 10px;
   }
   
-  #hsbox {
+  #highscorebox {
     display: none;
     justify-content: flex-start;
     width: 100%;
     margin-top: 20px;
   }
+
   
-  #hsback {
-    margin-right: 20px;
-  }
-  
-  #hslist {
+  #highscorelist {
     display: flex;
     justify-content: flex-start;
     width: 100%;

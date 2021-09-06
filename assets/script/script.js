@@ -1,18 +1,15 @@
-var questionText = document.querySelector("#title");
-var startText = document.querySelector("#starttxt");
-var startButton = document.querySelector("#startbutton");
-var buttonDiv = document.querySelector("#buttonholder");
-var quizDiv = document.querySelector("#quiz");
-
-var initialsBox = document.querySelector("#initials");
-var initialsButton = document.querySelector("#initialssubmit");
-var initialsInput = document.querySelector("#initialsinput");
-var initialsText = document.querySelector("#initialstext");
-
-var hsBox = document.querySelector("#highscorebox");
-var hsList = document.querySelector("#highscoreslist");
-
-var timerText = document.querySelector("#timer");
+var questionText = document.getElementById("title");
+var startText = document.getElementById("starttxt");
+var startButton = document.getElementById("startbutton");
+var buttonDiv = document.getElementById("buttonholder");
+var quizDiv = document.getElementById("quiz");
+var initialsBox = document.getElementById("initials");
+var initialsButton = document.getElementById("initialssubmit");
+var initialsInput = document.getElementById("initialsinput");
+var initialsText = document.getElementById("initialstext");
+var hsBox = document.getElementById("highscorebox");
+var hsList = document.getElementById("highscoreslist");
+var timerText = document.getElementById("timer");
 
 var counter = 0;
 var score = 0;
@@ -87,4 +84,5 @@ var clickedText = function (event) {
                     timer = timer
                 }
             }
+        }
     }
