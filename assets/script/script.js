@@ -86,3 +86,12 @@ var clickedText = function (event) {
             }
         }
     }
+
+    var saveScores = function () {
+        localStorage.setItem("highscores", JSON.stringify(totalScores));
+      }
+      var loadScores = function () {
+        if (localStorage.getItem("highscores")) { 
+          totalScores = JSON.parse(localStorage.getItem("highscores"));
+        }
+      }
